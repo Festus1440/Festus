@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1DA171DD73BDDB9C5595C5 /* Pods_Festus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05119B636C210A456BB54CD6 /* Pods_Festus.framework */; };
+		ED56F10023591BBF0021C986 /* ProfileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56F0FF23591BBF0021C986 /* ProfileTableView.swift */; };
+		ED56F10223591BDB0021C986 /* SettingsViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56F10123591BDB0021C986 /* SettingsViewC.swift */; };
+		ED56F10623598C140021C986 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56F10523598C140021C986 /* ProfileVC.swift */; };
+		ED56F108235A52800021C986 /* HomeTableViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56F107235A527F0021C986 /* HomeTableViewC.swift */; };
+		EDAE2996234C160A006B7E22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2995234C160A006B7E22 /* AppDelegate.swift */; };
+		EDAE2998234C160A006B7E22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2997234C160A006B7E22 /* SceneDelegate.swift */; };
+		EDAE299A234C160A006B7E22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE2999234C160A006B7E22 /* ViewController.swift */; };
+		EDAE299D234C160A006B7E22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAE299B234C160A006B7E22 /* Main.storyboard */; };
+		EDAE299F234C160C006B7E22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAE299E234C160C006B7E22 /* Assets.xcassets */; };
+		EDAE29A2234C160C006B7E22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAE29A0234C160C006B7E22 /* LaunchScreen.storyboard */; };
+		EDAE29AB234C175F006B7E22 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE29AA234C175F006B7E22 /* SignupViewController.swift */; };
+		EDAE29AD234C1786006B7E22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE29AC234C1786006B7E22 /* LoginViewController.swift */; };
+		EDAE29AF234C17BC006B7E22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE29AE234C17BC006B7E22 /* HomeViewController.swift */; };
+		EDAE29B2234C4385006B7E22 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE29B1234C4385006B7E22 /* Utilities.swift */; };
+		EDAE29B4234C50BF006B7E22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAE29B3234C50BE006B7E22 /* GoogleService-Info.plist */; };
+		EDAE29B8234CDDD6006B7E22 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE29B7234CDDD6006B7E22 /* Constants.swift */; };
+		EDE252B32351188100995089 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252B22351188100995089 /* MenuViewController.swift */; };
+		EDE252B523511C0F00995089 /* HomeNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252B423511C0F00995089 /* HomeNavController.swift */; };
+		EDE252B723514B3200995089 /* SlideTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252B623514B3200995089 /* SlideTransitions.swift */; };
+		EDE252BA2353A4B800995089 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252B92353A4B800995089 /* SideMenuController.swift */; };
+		EDE252BC2353B5BD00995089 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252BB2353B5BD00995089 /* HomeVC.swift */; };
+		EDE252BE2353B8DE00995089 /* twoUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252BD2353B8DE00995089 /* twoUIViewController.swift */; };
+		EDE252C22355479A00995089 /* BigContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252C12355479900995089 /* BigContainerView.swift */; };
+		EDE252C4235655A600995089 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE252C3235655A600995089 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05119B636C210A456BB54CD6 /* Pods_Festus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Festus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED7729188937E0863E9C1AD /* Pods-Festus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Festus.debug.xcconfig"; path = "Target Support Files/Pods-Festus/Pods-Festus.debug.xcconfig"; sourceTree = "<group>"; };
+		BF39B5F97AFB6BCBF7F4CE8E /* Pods-Festus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Festus.release.xcconfig"; path = "Target Support Files/Pods-Festus/Pods-Festus.release.xcconfig"; sourceTree = "<group>"; };
+		ED56F0FF23591BBF0021C986 /* ProfileTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableView.swift; sourceTree = "<group>"; };
+		ED56F10123591BDB0021C986 /* SettingsViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewC.swift; sourceTree = "<group>"; };
+		ED56F10523598C140021C986 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		ED56F107235A527F0021C986 /* HomeTableViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewC.swift; sourceTree = "<group>"; };
+		EDA951D8234ED07800B3EBD2 /* Festus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Festus-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDAE2992234C160A006B7E22 /* Festus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Festus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAE2995234C160A006B7E22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAE2997234C160A006B7E22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDAE2999234C160A006B7E22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDAE299C234C160A006B7E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAE299E234C160C006B7E22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAE29A1234C160C006B7E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAE29A3234C160C006B7E22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAE29AA234C175F006B7E22 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EDAE29AC234C1786006B7E22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EDAE29AE234C17BC006B7E22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EDAE29B1234C4385006B7E22 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EDAE29B3234C50BE006B7E22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDAE29B7234CDDD6006B7E22 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDE252B22351188100995089 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EDE252B423511C0F00995089 /* HomeNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavController.swift; sourceTree = "<group>"; };
+		EDE252B623514B3200995089 /* SlideTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransitions.swift; sourceTree = "<group>"; };
+		EDE252B92353A4B800995089 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		EDE252BB2353B5BD00995089 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EDE252BD2353B8DE00995089 /* twoUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoUIViewController.swift; sourceTree = "<group>"; };
+		EDE252C12355479900995089 /* BigContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigContainerView.swift; sourceTree = "<group>"; };
+		EDE252C3235655A600995089 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAE298F234C160A006B7E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1DA171DD73BDDB9C5595C5 /* Pods_Festus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA677A97B8ED82843929DA9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7729188937E0863E9C1AD /* Pods-Festus.debug.xcconfig */,
+				BF39B5F97AFB6BCBF7F4CE8E /* Pods-Festus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E611DAB5148D576130CA8B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05119B636C210A456BB54CD6 /* Pods_Festus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDAE2989234C160A006B7E22 = {
+			isa = PBXGroup;
+			children = (
+				EDAE2994234C160A006B7E22 /* Festus */,
+				EDAE2993234C160A006B7E22 /* Products */,
+				BA677A97B8ED82843929DA9F /* Pods */,
+				E611DAB5148D576130CA8B1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAE2993234C160A006B7E22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE2992234C160A006B7E22 /* Festus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAE2994234C160A006B7E22 /* Festus */ = {
+			isa = PBXGroup;
+			children = (
+				EDE252B82353A49700995089 /* Prototype */,
+				EDAE29B3234C50BE006B7E22 /* GoogleService-Info.plist */,
+				EDAE29B0234C4229006B7E22 /* Helpers */,
+				EDAE29A9234C1719006B7E22 /* ViewControllers */,
+				EDAE2995234C160A006B7E22 /* AppDelegate.swift */,
+				EDAE2997234C160A006B7E22 /* SceneDelegate.swift */,
+				EDAE299B234C160A006B7E22 /* Main.storyboard */,
+				EDAE299E234C160C006B7E22 /* Assets.xcassets */,
+				EDAE29A0234C160C006B7E22 /* LaunchScreen.storyboard */,
+				EDAE29A3234C160C006B7E22 /* Info.plist */,
+				EDA951D8234ED07800B3EBD2 /* Festus-Bridging-Header.h */,
+			);
+			path = Festus;
+			sourceTree = "<group>";
+		};
+		EDAE29A9234C1719006B7E22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE2999234C160A006B7E22 /* ViewController.swift */,
+				EDAE29AA234C175F006B7E22 /* SignupViewController.swift */,
+				EDAE29AC234C1786006B7E22 /* LoginViewController.swift */,
+				EDAE29AE234C17BC006B7E22 /* HomeViewController.swift */,
+				EDE252B623514B3200995089 /* SlideTransitions.swift */,
+				EDE252B22351188100995089 /* MenuViewController.swift */,
+				EDE252B423511C0F00995089 /* HomeNavController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDAE29B0234C4229006B7E22 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE29B1234C4385006B7E22 /* Utilities.swift */,
+				EDAE29B7234CDDD6006B7E22 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EDE252B82353A49700995089 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				EDE252B92353A4B800995089 /* SideMenuController.swift */,
+				EDE252BD2353B8DE00995089 /* twoUIViewController.swift */,
+				EDE252BB2353B5BD00995089 /* HomeVC.swift */,
+				EDE252C12355479900995089 /* BigContainerView.swift */,
+				EDE252C3235655A600995089 /* MainView.swift */,
+				ED56F0FF23591BBF0021C986 /* ProfileTableView.swift */,
+				ED56F10123591BDB0021C986 /* SettingsViewC.swift */,
+				ED56F10523598C140021C986 /* ProfileVC.swift */,
+				ED56F107235A527F0021C986 /* HomeTableViewC.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAE2991234C160A006B7E22 /* Festus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAE29A6234C160C006B7E22 /* Build configuration list for PBXNativeTarget "Festus" */;
+			buildPhases = (
+				1EFD36D47A8389E5B5949019 /* [CP] Check Pods Manifest.lock */,
+				EDAE298E234C160A006B7E22 /* Sources */,
+				EDAE298F234C160A006B7E22 /* Frameworks */,
+				EDAE2990234C160A006B7E22 /* Resources */,
+				71A896EF8FEBE99A06383A5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Festus;
+			productName = Festus;
+			productReference = EDAE2992234C160A006B7E22 /* Festus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAE298A234C160A006B7E22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Festus Muberuka";
+				TargetAttributes = {
+					EDAE2991234C160A006B7E22 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = EDAE298D234C160A006B7E22 /* Build configuration list for PBXProject "Festus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAE2989234C160A006B7E22;
+			productRefGroup = EDAE2993234C160A006B7E22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAE2991234C160A006B7E22 /* Festus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAE2990234C160A006B7E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAE29A2234C160C006B7E22 /* LaunchScreen.storyboard in Resources */,
+				EDAE29B4234C50BF006B7E22 /* GoogleService-Info.plist in Resources */,
+				EDAE299F234C160C006B7E22 /* Assets.xcassets in Resources */,
+				EDAE299D234C160A006B7E22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EFD36D47A8389E5B5949019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Festus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A896EF8FEBE99A06383A5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Festus/Pods-Festus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Festus/Pods-Festus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Festus/Pods-Festus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAE298E234C160A006B7E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAE299A234C160A006B7E22 /* ViewController.swift in Sources */,
+				ED56F10223591BDB0021C986 /* SettingsViewC.swift in Sources */,
+				EDE252BE2353B8DE00995089 /* twoUIViewController.swift in Sources */,
+				ED56F10623598C140021C986 /* ProfileVC.swift in Sources */,
+				EDAE2996234C160A006B7E22 /* AppDelegate.swift in Sources */,
+				EDE252B523511C0F00995089 /* HomeNavController.swift in Sources */,
+				ED56F108235A52800021C986 /* HomeTableViewC.swift in Sources */,
+				EDAE29B2234C4385006B7E22 /* Utilities.swift in Sources */,
+				EDAE29AB234C175F006B7E22 /* SignupViewController.swift in Sources */,
+				EDE252B32351188100995089 /* MenuViewController.swift in Sources */,
+				EDAE29AD234C1786006B7E22 /* LoginViewController.swift in Sources */,
+				EDE252BA2353A4B800995089 /* SideMenuController.swift in Sources */,
+				EDE252C4235655A600995089 /* MainView.swift in Sources */,
+				EDAE2998234C160A006B7E22 /* SceneDelegate.swift in Sources */,
+				EDAE29AF234C17BC006B7E22 /* HomeViewController.swift in Sources */,
+				EDE252B723514B3200995089 /* SlideTransitions.swift in Sources */,
+				ED56F10023591BBF0021C986 /* ProfileTableView.swift in Sources */,
+				EDAE29B8234CDDD6006B7E22 /* Constants.swift in Sources */,
+				EDE252C22355479A00995089 /* BigContainerView.swift in Sources */,
+				EDE252BC2353B5BD00995089 /* HomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDAE299B234C160A006B7E22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAE299C234C160A006B7E22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAE29A0234C160C006B7E22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAE29A1234C160C006B7E22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAE29A4234C160C006B7E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDAE29A5234C160C006B7E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAE29A7234C160C006B7E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED7729188937E0863E9C1AD /* Pods-Festus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR97NL2888;
+				INFOPLIST_FILE = Festus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.festusmuberuka.Festus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Festus/Festus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAE29A8234C160C006B7E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF39B5F97AFB6BCBF7F4CE8E /* Pods-Festus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KR97NL2888;
+				INFOPLIST_FILE = Festus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.festusmuberuka.Festus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Festus/Festus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAE298D234C160A006B7E22 /* Build configuration list for PBXProject "Festus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAE29A4234C160C006B7E22 /* Debug */,
+				EDAE29A5234C160C006B7E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAE29A6234C160C006B7E22 /* Build configuration list for PBXNativeTarget "Festus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAE29A7234C160C006B7E22 /* Debug */,
+				EDAE29A8234C160C006B7E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAE298A234C160A006B7E22 /* Project object */;
+}

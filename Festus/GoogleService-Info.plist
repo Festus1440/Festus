@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1089614498539-2mo04tqe6t21a6625dir3ol8u0gaf5mo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1089614498539-2mo04tqe6t21a6625dir3ol8u0gaf5mo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCBN5Sjwx3AW__Y6Y6QIlz1p45hGSpZhM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1089614498539</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.festusmuberuka.Festus</string>
+	<key>PROJECT_ID</key>
+	<string>ios-app-68412</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ios-app-68412.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1089614498539:ios:e2e340d0ceb718c9c30cae</string>
+	<key>DATABASE_URL</key>
+	<string>https://ios-app-68412.firebaseio.com</string>
+</dict>
+</plist>
